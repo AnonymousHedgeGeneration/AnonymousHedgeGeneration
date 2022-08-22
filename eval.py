@@ -44,9 +44,6 @@ COMMENTS_LOG_FILE = config["COMMENTS_LOG_FILE"]
 COMBINED_PREDS_OUTPUT_DIR = config["COMBINED_PREDS_OUTPUT_DIR"]
 
 
-# REFS_FILE = Path("/scratch2/aabulimiti/hg/HedgingGeneration/src/swda_targets.txt")
-# PREDS_FILE = Path("/scratch2/aabulimiti/hg/HedgingGeneration/src/preds_swda_dialgpt.txt")
-
 train_data_path, test_data_path = define_data_path(DATA_TYPE_COMBINATION)
 
 now = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
