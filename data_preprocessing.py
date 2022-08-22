@@ -114,7 +114,7 @@ def decide_role(people, period):
 
 
 if __name__ == "__main__":
-    raw_data_path = Path("./scratch2/aabulimiti/hg/HedgingGeneration/data/raw/indirectness_dataset.csv")
+    raw_data_path = Path("../data/raw/indirectness_dataset.csv")
     #! important parameter
     history_size = 4
     raw_df = pd.read_csv(raw_data_path)
